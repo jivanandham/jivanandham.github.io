@@ -60,11 +60,46 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Programming Language
-        sub_title: Python, Java, SQL
+        title: Technical Skills
+        caption: List of technical skills
+        sub_title: 
+        description: | 
+          - Programming Languages: Python, Java, C++
+          - Web Development: HTML, CSS, JavaScript, React
+          - Database Management: SQL, MongoDB
+          - Cloud Computing: AWS, Azure
+          - Machine Learning: TensorFlow, scikit-learn
+          - Networking: TCP/IP, DNS, VPN
+          - Cybersecurity: Ethical Hacking, Penetration Testing
+          - Operating Systems: Linux, Windows
+          - Project Management: Agile, Scrum
+          - Tools: Git, Docker, Jenkins
+          
       - layout: top-middle
-        title: Programming Language
-        sub_title: Python, Java, SQL
+        title: Soft Skills
+        caption: List of soft skills
+        sub_title: 
+        description: | 
+          - Communication
+          - Team Collaboration
+          - Problem Solving
+          - Critical Thinking
+          - Time Management
+          - Adaptability
+          - Leadership
+          - Creativity
+          - Attention to Detail
+          - Conflict Resolution
+
+      - layout: top-middle
+        title: Certifications
+        caption: List of certifications
+        sub_title: 
+        description: | 
+          - AWS Certified Solutions Architect
+          - Certified Ethical Hacker (CEH)
+          - ScrumMaster (CSM)
+          - CompTIA Security+
         
     
   - title: Education # Title for the section
