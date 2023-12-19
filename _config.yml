@@ -67,7 +67,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Currently pusuing Master's at UPitt I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
-          Graduate Coursework: Algorithm Design, Applications of Networks, Database Management, Cyber Forensic      
+          Graduate Coursework: Algorithm Design, Applications of Networks, Database Management, Cyber Forensic, Machine Learning, Cloud Computing, Artifical Intelligence.     
         
       - layout: left
         title: Tamil Nadu Agricultural University
@@ -78,17 +78,22 @@ content:
         description: | # this will include new lines to allow paragraphs
           My MBA journey is not just a qualification—it's a testament to my commitment to excellence and continuous learning. The strategic mindset, analytical prowess, and specialized knowledge I gained during my MBA program contribute significantly to my ability to deliver impactful solutions.
           
-          Graduate Coursework: Statistics, Research Methodology, Strategy Formation
+          Graduate Coursework: Statistics, Research Methodology, Strategy Formation, Financial Management.
       - layout: left
         title: Anna University
         caption: 2009 - 2013
         sub_title: Bachelors of Engineering Electrical and Electronics Engineering 3.50 GPA
-        quote: >
+        # quote: >
           # Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          I hold a Bachelor's degree in Electrical and Electronics Engineering, where I excelled in both theoretical knowledge and practical applications. My hands-on experience, specialization in both Electrical and Electronics, and recognition for underscore my commitment to innovation in the ever-evolving field of electrical engineering.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+
+
+
+
+      
+          Undergraduate Coursework: Data Structures, Object oriented Programming, Digital Signal Processing, Computer Networks.
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
