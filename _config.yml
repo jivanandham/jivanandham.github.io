@@ -93,9 +93,9 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+      - layout: left
+        title: Archaeology Database
+        link: github.com/Database-Management-INFSCI-2710
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
