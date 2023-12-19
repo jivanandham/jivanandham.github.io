@@ -75,7 +75,6 @@ content:
         description: | 
           - Communication, Team Collaboration, Problem Solving, Critical Thinking, Time Management, Adaptability, Leadership, Creativity, Attention to Detail, Conflict Resolution
         
-content:
   - title: Certifications # Title for the section
     layout: list # Type of content section (list/text)
     content:
