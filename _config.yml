@@ -56,17 +56,17 @@ about_content: | # this will include new lines to allow paragraphs
         
 
 content:
-- title: Skills # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Programming Languages
-        description: | # this will include new lines to allow paragraphs
-            Python, Java, SQL
-       - layout: left
-        title: Programming Languages
-        description: | # this will include new lines to allow paragraphs
-            Python, Java, SQL
+  - title: Skills # Title for the section
+      layout: list # Type of content section (list/text)
+      content:
+        - layout: left
+          title: Programming Languages
+          description: | # this will include new lines to allow paragraphs
+              Python, Java, SQL
+         - layout: left
+          title: Programming Languages
+          description: | # this will include new lines to allow paragraphs
+              Python, Java, SQL
     
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
