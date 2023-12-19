@@ -60,70 +60,25 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Programming Languages
+        title: Technical Skills
         # caption: List of technical skills
         sub_title: 
         description: | 
           - Python, Java, C++
-      - layout: left
-        title: Web Development
-        # caption: List of technical skills
-        sub_title: 
-        description: | 
           - HTML, CSS, JavaScript, React
-      - layout: left
-        title: Database Management
-        # caption: List of technical skills
-        sub_title: 
-        description: | 
           - SQL, MongoDB
-      - layout: left
-        title: Cloud Computing
-        # caption: List of technical skills
-        sub_title: 
-        description: | 
           - AWS, Azure
-      - layout: left
-        title: Machine Learning
-        # caption: List of technical skills
-        sub_title: 
-        description: | 
           - TensorFlow, scikit-learn
-      - layout: left
-        title: Networking
-        # caption: List of technical skills
-        sub_title: 
-        description: | 
           - TCP/IP, DNS, VPN
-      - layout: left
-        title: Cybersecurity
-        # caption: List of technical skills
-        sub_title: 
-        description: | 
           - Ethical Hacking, Penetration Testing
-      - layout: left
-        title: Operating Systems
-        # caption: List of technical skills
-        sub_title: 
-        description: | 
           - Linux, Windows
           
-      - layout: top-middle
+      - layout: left
         title: Soft Skills
-        caption: List of soft skills
+        # caption: List of soft skills
         sub_title: 
         description: | 
           - Communication, Team Collaboration, Problem Solving, Critical Thinking, Time Management, Adaptability, Leadership, Creativity, Attention to Detail, Conflict Resolution
-
-      - layout: top-middle
-        title: Certifications
-        caption: List of certifications
-        sub_title: 
-        description: | 
-          - AWS Certified Solutions Architect
-          - Certified Ethical Hacker (CEH)
-          - ScrumMaster (CSM)
-          - CompTIA Security+
         
     
   - title: Education # Title for the section
