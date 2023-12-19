@@ -51,7 +51,7 @@ about_profile_image: images/PXL_20230930_195442661.MP.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Jeeva, Electrical Engineer with 8 years of experience in designing, implementing, and maintaining electrical systems. Seeking a transition into the Information Technology domain to leverage technical expertise, problem-solving abilities, and project management skills for IT-related roles.
 
-  # I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+ # I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
   - title: Education # Title for the section
@@ -61,9 +61,12 @@ content:
         title: University of Pittsburgh
         caption: 2023 - Present
         sub_title: Master of Science in Information Science
+        sub_title: 3.75 GPA
+        
         # quote: >
           # Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
+          I'm pursuing Masters in University of Pittsburgh 
           During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
           I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
