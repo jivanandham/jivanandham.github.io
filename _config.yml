@@ -76,30 +76,44 @@ content:
         # caption: List of technical skills
         sub_title: 
         description: | 
-          - Database Management: SQL, MongoDB
-          - Cloud Computing: AWS, Azure
-          - Machine Learning: TensorFlow, scikit-learn
-          - Networking: TCP/IP, DNS, VPN
-          - Cybersecurity: Ethical Hacking, Penetration Testing
-          - Operating Systems: Linux, Windows
-          - Project Management: Agile, Scrum
-          - Tools: Git, Docker, Jenkins
+          - SQL, MongoDB
+      - layout: left
+        title: Cloud Computing
+        # caption: List of technical skills
+        sub_title: 
+        description: | 
+          - AWS, Azure
+      - layout: left
+        title: Machine Learning
+        # caption: List of technical skills
+        sub_title: 
+        description: | 
+          - TensorFlow, scikit-learn
+      - layout: left
+        title: Networking
+        # caption: List of technical skills
+        sub_title: 
+        description: | 
+          - TCP/IP, DNS, VPN
+      - layout: left
+        title: Cybersecurity
+        # caption: List of technical skills
+        sub_title: 
+        description: | 
+          - Ethical Hacking, Penetration Testing
+      - layout: left
+        title: Operating Systems
+        # caption: List of technical skills
+        sub_title: 
+        description: | 
+          - Linux, Windows
           
       - layout: top-middle
         title: Soft Skills
         caption: List of soft skills
         sub_title: 
         description: | 
-          - Communication
-          - Team Collaboration
-          - Problem Solving
-          - Critical Thinking
-          - Time Management
-          - Adaptability
-          - Leadership
-          - Creativity
-          - Attention to Detail
-          - Conflict Resolution
+          - Communication, Team Collaboration, Problem Solving, Critical Thinking, Time Management, Adaptability, Leadership, Creativity, Attention to Detail, Conflict Resolution
 
       - layout: top-middle
         title: Certifications
