@@ -76,6 +76,7 @@ content:
         # quote: >
           # Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
+          My MBA journey is not just a qualification—it's a testament to my commitment to excellence and continuous learning. The strategic mindset, analytical prowess, and specialized knowledge I gained during my MBA program contribute significantly to my ability to deliver impactful solutions,
           Graduate Coursework: Statistics, Research Methodology, Strategy Formation
       - layout: left
         title: Anna University
