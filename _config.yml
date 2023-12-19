@@ -54,6 +54,13 @@ about_content: | # this will include new lines to allow paragraphs
  # I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
+  - title: Skills
+    layout: list
+    content:
+      - layout: top-middle
+        
+
+content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
