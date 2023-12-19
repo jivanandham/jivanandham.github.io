@@ -64,14 +64,9 @@ content:
         # caption: List of technical skills
         sub_title: 
         description: | 
-          - Python, Java, C++
-          - HTML, CSS, JavaScript, React
-          - SQL, MongoDB
-          - AWS, Azure
+          - Python, Java, C++, HTML, CSS, JavaScript, React, SQL, MongoDB, AWS
           - TensorFlow, scikit-learn
-          - TCP/IP, DNS, VPN
-          - Ethical Hacking, Penetration Testing
-          - Linux, Windows
+          - TCP/IP, DNS, VPN, Ethical Hacking, Penetration Testing, Linux, Windows
           
       - layout: left
         title: Soft Skills
