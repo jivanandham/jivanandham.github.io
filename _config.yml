@@ -207,7 +207,9 @@ content:
             • Managed operations at a hydro power plant, ensuring compliance with safety and environmental regulations.
             • Implemented data monitoring for predicative maintenance of the generators and transmission lines.
   - title: Certifications # Title for the section
-    layout: top-middle
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
         title: Certifications
         caption: List of certifications
         sub_title: 
@@ -216,6 +218,7 @@ content:
           - IBM - Data Science Specialization: Python; SQL; Data Exploration.
           - Google IT Support Professional Certificate: IT Security; Network Fundamentals; Scripting.
           - Scaler Full Stack Specialization: Java; SQL; LLD; HLD.
+  
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
