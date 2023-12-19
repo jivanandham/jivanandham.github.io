@@ -82,7 +82,7 @@ content:
       - layout: left
         title: Anna University
         caption: 2009 - 2013
-        sub_title: Bachelors of Engineering Electrical and Electronics     / GPA - 3.50
+        sub_title: Bachelors of Engineering Electrical and Electronics GPA - 3.50
         # quote: >
           # Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
@@ -95,6 +95,7 @@ content:
     content:
       - layout: left
         title: Archaeology Database
+        icon: fab fa-github
         link: github.com/Database-Management-INFSCI-2710
         # link_text: Project Website
         additional_links:
