@@ -1,4 +1,10 @@
 # Site
+---
+# other front matter configurations
+---
+
+@import 'modern-resume-theme'; // Check this import statement
+
 repository: jivanandham/jivanandham.github.io
 favicon: images/favicon.ico
 
