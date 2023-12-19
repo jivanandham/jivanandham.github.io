@@ -59,7 +59,7 @@ content:
   - title: Skills # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-center
         title: University of Pittsburgh
         caption: 2023 - Present
         sub_title: Master of Science in Information Science GPA - 3.75
