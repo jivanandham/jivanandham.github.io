@@ -59,13 +59,23 @@ content:
   - title: Skills # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        title: Technical Skills
-        caption: List of technical skills
+      - layout: left
+        title: Programming Languages
+        # caption: List of technical skills
         sub_title: 
         description: | 
-          - Programming Languages: Python, Java, C++
-          - Web Development: HTML, CSS, JavaScript, React
+          - Python, Java, C++
+      - layout: left
+        title: Web Development
+        # caption: List of technical skills
+        sub_title: 
+        description: | 
+          - HTML, CSS, JavaScript, React
+      - layout: left
+        title: Database Management
+        # caption: List of technical skills
+        sub_title: 
+        description: | 
           - Database Management: SQL, MongoDB
           - Cloud Computing: AWS, Azure
           - Machine Learning: TensorFlow, scikit-learn
