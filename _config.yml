@@ -50,7 +50,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Jeeva, Electrical Engineer with 8 years of experience in designing, implementing, and maintaining electrical systems. Seeking a transition into the Information Technology domain to leverage technical expertise, problem-solving abilities, and project management skills for IT-related roles.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  # I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
   - title: Education # Title for the section
