@@ -21,7 +21,7 @@ darkmode: true
 
 # About Section
 about_profile_image: # Add the path to your profile image
-about_content: |
+about_content: 
   Electrical Engineer with 8 years of experience in designing, implementing, and maintaining electrical systems. Seeking a transition into the Information Technology domain to leverage technical expertise, problem-solving abilities, and project management skills for IT-related roles.
 
 # Education Section
