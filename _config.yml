@@ -87,14 +87,7 @@ content:
           - IBM - Data Science Specialization: Python; SQL; Data Exploration.
           - Google IT Support Professional Certificate: IT Security; Network Fundamentals; Scripting.
           - Scaler Full Stack Specialization: Java; SQL; LLD; HLD.
-          
-      - layout: left
-        title: Soft Skills
-        # caption: List of soft skills
-        sub_title: 
-        description: | 
-          - Communication, Team Collaboration, Problem Solving, Critical Thinking, Time Management, Adaptability, Leadership, Creativity, Attention to Detail, Conflict Resolution
-        
+
   
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
