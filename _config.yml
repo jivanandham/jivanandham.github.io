@@ -131,13 +131,15 @@ content:
         # link_text: boringcompany.com
         sub_title: Electrical Supervisor
         caption: June 2020 - December 2022
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        # quote: >
+          # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            •	Functioned as crew leader, overseeing the work of 30 lower-level licensed electricians and trade helpers.
+            •	Provided technical supervision and support to Instrumentation and Electrical personnel.
+
       - layout: left
         title: Blue Star
-        link: bluestarinida.com
+        link: bluestarindia.com
         # link_text: boringcompany.com
         sub_title: Electrical Technician
         caption: April 2018 - June 2020
@@ -157,10 +159,10 @@ content:
             Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
       - layout: left
         title: TANGEDCO
-        link: tangedco.com
+        link: www.tangedco.org
         # link_text: boringcompany.com
         sub_title: Graduate Trainee
-        caption: MArch 2014 - March 2015
+        caption: March 2014 - March 2015
         quote: >
           Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
