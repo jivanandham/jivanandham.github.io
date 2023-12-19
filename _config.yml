@@ -80,7 +80,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        # title: Technical Skills
+        title: Technical Skills
         # caption: List of technical skills
         sub_title: 
         description: | 
