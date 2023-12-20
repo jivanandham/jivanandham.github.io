@@ -79,7 +79,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        # title: Technical Skills
+        title: Certifications
         # caption: List of technical skills
         sub_title: 
         description: | 
