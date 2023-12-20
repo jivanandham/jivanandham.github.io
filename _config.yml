@@ -64,16 +64,16 @@ content:
         # caption: List of technical skills
         sub_title: 
         description: | 
-          - Python, Java, C++, HTML, CSS, JavaScript, React, SQL, MongoDB, AWS
-          - TensorFlow, scikit-learn
-          - TCP/IP, DNS, VPN, Ethical Hacking, Penetration Testing, Linux, Windows
+          Python, Java, C++, HTML, CSS, JavaScript, React, SQL, MongoDB, AWS
+          TensorFlow, scikit-learn
+          TCP/IP, DNS, VPN, Ethical Hacking, Penetration Testing, Linux, Windows
           
       - layout: left
         title: Soft Skills
         # caption: List of soft skills
         sub_title: 
         description: | 
-          - Communication, Team Collaboration, Problem Solving, Critical Thinking, Time Management, Adaptability, Leadership, Creativity, Attention to Detail, Conflict Resolution
+          Communication, Team Collaboration, Problem Solving, Critical Thinking, Time Management, Adaptability, Leadership, Creativity, Attention to Detail, Conflict Resolution
         
   - title: Certifications # Title for the section
     layout: list # Type of content section (list/text)
@@ -83,10 +83,10 @@ content:
         # caption: List of technical skills
         sub_title: 
         description: | 
-          - Udacity - Data Analyst Nanodegree: Python; SQL; Data Analysis; Data Visualization.
-          - IBM - Data Science Specialization: Python; SQL; Data Exploration.
-          - Google IT Support Professional Certificate: IT Security; Network Fundamentals; Scripting.
-          - Scaler Full Stack Specialization: Java; SQL; LLD; HLD.
+          Udacity - Data Analyst Nanodegree: Python; SQL; Data Analysis; Data Visualization.
+          IBM - Data Science Specialization: Python; SQL; Data Exploration.
+          Google IT Support Professional Certificate: IT Security; Network Fundamentals; Scripting.
+          Scaler Full Stack Specialization: Java; SQL; LLD; HLD.
 
   
   - title: Education # Title for the section
