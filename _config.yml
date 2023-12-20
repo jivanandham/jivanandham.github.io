@@ -79,7 +79,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Technical Skills
+        # title: Technical Skills
         # caption: List of technical skills
         sub_title: 
         description: | 
@@ -193,18 +193,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             • Managed operations at a hydro power plant, ensuring compliance with safety and environmental regulations.
             • Implemented data monitoring for predicative maintenance of the generators and transmission lines.
-  - title: Certifications # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Certifications
-        caption: List of certifications
-        sub_title: 
-        description: | 
-          - Udacity - Data Analyst Nanodegree: Python; SQL; Data Analysis; Data Visualization.
-          - IBM - Data Science Specialization: Python; SQL; Data Exploration.
-          - Google IT Support Professional Certificate: IT Security; Network Fundamentals; Scripting.
-          - Scaler Full Stack Specialization: Java; SQL; LLD; HLD.
+  
   
   - title: A Little More About Me
     layout: text
