@@ -157,9 +157,18 @@ content:
         # quote: >
           # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Functioned as crew leader, overseeing the work of 30 lower-level licensed electricians and trade helpers.
+            Functioned as crew leader, overseeing the work of lower-level licensed electricians and trade helpers.
             
-            Provided technical supervision and support to Instrumentation and Electrical personnel.
+            Followed electrical code manuals to install and repair electrical systems.
+            
+            Took ownership of electrical crew schedule, developing short- and long-term look-ahead schedules toalign with execution plans.
+            
+            Meticulously tested installations to check continuity of circuits and compatibility and safety ofcomponents using test equipment such as an ohmmeter, amp meter, and voltmeter.
+            
+            Provided technical supervision and support to Instrumentation and Electrical (I&E) supervisors,Instrument and electrical planners, and contract personnel.
+            
+            Coordinated efficient maintenance schedules to keep systems running at peak levels.
+
 
       - layout: left
         title: Blue Star
@@ -173,6 +182,19 @@ content:
             Improved efficiency in electrical distribution, cutting downtime and boosting operational reliability by 20%.
             
             Performed monthly, semi-annual, and annual Preventive Maintenance Checks and Services (PMCS).
+
+            Performed monthly, semi-annual, and annual Preventive Maintenance Checks and Services (PMCS).
+            
+            Climbed towers, worked in confined crawl spaces, and worked flexible, non-standard workweek.
+            
+            Kept permits, isolation tags, and logs currently at all times.
+            
+            Drafted and completed daily, weekly and monthly checklist for building equipment maintenance.
+            
+            Maintained electrical and mechanical components of gas and diesel engine-driven generators.
+            
+            Provided electrical services and control wiring for diverse locations.
+
             
       - layout: left
         title: Chennai Engineering Services
@@ -184,6 +206,17 @@ content:
           # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
             Interpreted and executed intricate electrical schematics, blueprints, and diagrams, contributing to the completion of 10+ projects with accurate wiring and optimal functionality.
+
+            Installed electrical wiring during remodeling projects.
+            
+            Frequently worked overtime, weekends, and holidays.
+            
+            Interpreted electrical and mechanical schematics, blueprints, and diagrams.
+            
+            Tested energized and de-energized circuits, following test procedures and assisted in specialized testprocedures.
+            
+            Tested and repaired electric motors, variable frequency drives, alarms, and control systems.
+
       - layout: left
         title: TANGEDCO
         link: www.tangedco.org
@@ -196,6 +229,13 @@ content:
             Managed operations at a hydro power plant, ensuring compliance with safety and environmental regulations.
             
             Implemented data monitoring for predicative maintenance of the generators and transmission lines.
+
+            Operation and Maintenance of Hydro Power Plant.
+            
+            3 * 60 MW Generator, 9 * 11/230 KV Transformers, 230 KV Switchyard,
+            
+            230 KV Transmission Lines and its Auxiliaries.
+
   
   
   # - title: A Little More About Me
