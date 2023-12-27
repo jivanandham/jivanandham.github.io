@@ -213,21 +213,6 @@ content:
 
             Operation and Maintenance of Hydro Power Plant. 3 * 60 MW Generator, 9 * 11/230 KV Transformers, 230 KV Switchyard, 230 KV Transmission Lines and its Auxiliaries.
 
-  
-  - title: Pages # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Portfolio
-        icon: fas fa-folder
-        link: /portfolio
-        description: Explore my portfolio to see a collection of projects and work experiences.
-      
-      - layout: left
-        title: Blog
-        icon: fas fa-blog
-        link: /blog
-        description: Read my blog posts to stay updated on industry trends, insights, and personal reflections.
 
   # - title: A Little More About Me
   #   layout: text
