@@ -66,9 +66,7 @@ content:
         # caption: List of technical skills
         sub_title: 
         description: | 
-          Python, Java, HTML, CSS, JavaScript, React, SQL, MongoDB, AWS
-          TensorFlow, scikit-learn
-          TCP/IP, DNS, VPN, Linux, Windows
+          Python, Java, R, SQL, React, HTML, CSS, JavaScript, Node.js, MongoDB, AWS, TensorFlow, scikit-learn, TCP/IP, DNS, VPN, Linux, Windows
           
       - layout: left
         title: Soft Skills
@@ -100,14 +98,14 @@ content:
       - layout: left
         title: University of Pittsburgh
         caption: 2023 - Present
-        sub_title: Master of Science in Information Science GPA - 3.75
+        sub_title: Master of Science in Information Science GPA - 3.875
         
         # quote: >
           # Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
           Currently pusuing Master's at UPitt I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
-          Graduate Coursework: Algorithm Design, Applications of Networks, Database Management, Cyber Forensic, Machine Learning, Cloud Computing, Artifical Intelligence.     
+          Graduate Coursework: Algorithm Design, Applications of Networks, Database Management, Cyber Forensic, Machine Learning, Cloud Computing, Artifical Intelligence, Information Security and Privacy.     
         
       - layout: left
         title: Tamil Nadu Agricultural University
@@ -143,10 +141,17 @@ content:
       - layout: left
         title: Network Simulator
         icon: fab fa-github
-        link: github.com/jivanandham/Applications-of-Networks
+        link: https://github.com/jivanandham/Cyber-Forensics-Deepfake-Detection
         # link_text: Project Website
         description: | # this will include new lines to allow paragraphs
-          •	Developed expertise in Network Simulation and contributed significantly to an Internet Measurement and Analysis Project. Proficiently utilized tools and methodologies to simulate network environments and conducted in-depth analysis, showcasing a strong understanding of network dynamics. (Python)
+          •	Implemented and assessed a deepfake detection system using InceptionResNetV2 with fine-tuning and image augmentation.. (Python, TensorFlow)
+      - layout: left
+        title: Network Simulator
+        icon: fab fa-github
+        link: github.com/jivanandham/Applications-of-Networks-main
+        # link_text: Project Website
+        description: | # this will include new lines to allow paragraphs
+          •	Developed expertise in Network Simulation and Internet Measurement and Analysis. Proficiently utilized tools and methodologies to simulate network environments and conducted in-depth analysis, showcasing a strong understanding of network dynamics. (Python, Matplotlib)
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -154,7 +159,7 @@ content:
         title: Shraddha Engineering and Facilty Services
         link: http://sefs.co.in
         # link_text: boringcompany.com
-        sub_title: Electrical Supervisor
+        sub_title: Electrical Engineer
         caption: June 2020 - December 2022
         # quote: >
           # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
@@ -171,7 +176,7 @@ content:
         title: Blue Star
         link: bluestarindia.com
         # link_text: boringcompany.com
-        sub_title: Electrical Technician
+        sub_title: Senior Electrical Technician
         caption: April 2018 - June 2020
         # quote: >
           # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
@@ -204,7 +209,7 @@ content:
         title: TANGEDCO
         link: www.tangedco.org
         # link_text: boringcompany.com
-        sub_title: Graduate Trainee
+        sub_title: Apprentice Electrical Engineer
         caption: March 2014 - March 2015
         # quote: >
           # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
