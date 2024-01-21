@@ -139,7 +139,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           •	Led the construction of a database and website for the university's Archaeological Department. Successfully implemented roles for dynamic data entry, versioning, and user access, integrating features such as variable fields, data dictionary, and time-stamped snapshots. (React, Postgres, AWS, Node.js)
       - layout: left
-        title: Network Simulator
+        title: Deepfake Detection using ResNet
         icon: fab fa-github
         link: https://github.com/jivanandham/Cyber-Forensics-Deepfake-Detection
         # link_text: Project Website
