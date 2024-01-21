@@ -156,10 +156,10 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Shraddha Engineering and Facilty Services
-        link: http://sefs.co.in
+        title: Electrical Engineer 
         # link_text: boringcompany.com
-        sub_title: Electrical Engineer
+        sub_title: Shraddha Engineering and Facilty Services
+        link: http://sefs.co.in
         caption: June 2020 - December 2022
         # quote: >
           # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
@@ -173,10 +173,10 @@ content:
             Provided technical supervision and support to Instrumentation and Electrical (I&E) supervisors,Instrument and electrical planners, and contract personnel. Coordinated efficient maintenance schedules to keep systems running at peak levels.
 
       - layout: left
-        title: Blue Star
-        link: bluestarindia.com
+        title: Senior Electrical Technician 
         # link_text: boringcompany.com
-        sub_title: Senior Electrical Technician
+        sub_title: Blue Star
+        link: bluestarindia.com
         caption: April 2018 - June 2020
         # quote: >
           # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
@@ -191,10 +191,10 @@ content:
 
             
       - layout: left
-        title: Chennai Engineering Services
+        title: Electrical Technician 
         # link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Electrical Technician
+        sub_title: Chennai Engineering Services
         caption: June 2015 - April 2018
         # quote: >
           # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
@@ -206,10 +206,10 @@ content:
             Tested energized and de-energized circuits, following test procedures and assisted in specialized testprocedures. Tested and repaired electric motors, variable frequency drives, alarms, and control systems.
 
       - layout: left
-        title: TANGEDCO
-        link: www.tangedco.org
+        title: Apprentice Electrical Engineer
         # link_text: boringcompany.com
-        sub_title: Apprentice Electrical Engineer
+        sub_title: TANGEDCO
+        link: www.tangedco.org
         caption: March 2014 - March 2015
         # quote: >
           # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
