@@ -173,100 +173,159 @@
             <div class="experience-card">
                 <div class="experience-header">
                     <div class="experience-logo">
-                        <img src="assets/images/pitt-logo.png" alt="University of Pittsburgh Logo">
+                        <img src="assets/images/pitt-logo.png" alt="Larsen & Toubro Logo">
                     </div>
                     <div class="experience-title">
-                        <h3>Course Facilitator</h3>
-                        <p class="experience-company">University of Pittsburgh, Pittsburgh, United States</p>
+                        <h3>MDS Course Facilitator</h3>
+                        <p class="experience-company">University of Pittsburgh, Pittsburgh, PA</p>
                     </div>
-                    <span class="experience-date">Sep '24 — Present</span>
+                    <span class="experience-date">12/2024 - present</span>
                 </div>
                 <ul class="experience-list">
-                    <li>Mentored 300+ students in Python, Tableau, and Power BI, improving data analytics project completion rates by 20% through effective data quality and transformation processes.</li>
-                    <li>Supervised 10+ project teams in the application of ML components and algorithms (scikit-learn, TensorFlow) on real-world datasets,
-ensuring reliable data processing and analysis.</li>
-                    <li>Managed student queries and ticketing using Salesforce, streamlining issue resolution and embedding new procedures with attention to
-detail.</li>
+                    <li>Mentored students in Python and Tableau for data visualization projects in the CMPINF 2130 "The Art of Data Visualization" course.</li>
+                    <li>Utilized Salesforce for managing and resolving student issues and tickets related to the Coursera learning platform, coding assignments, and course-related inquiries.</li>
+                    <li>Simplified complex concepts such as network theories and time series analysis.</li>
+                    <li>Supported the development of creative and impactful visualizations for student projects.</li>
+                    <li>Collaborated via Teams and Slack to maintain remote engagement.</li>
                 </ul>
             </div>
 
             <div class="experience-card">
                 <div class="experience-header">
                     <div class="experience-logo">
-                        <img src="assets/images/airoverse-logo.png" alt="Airoverse Logo">
+                        <img src="assets/images/airoverse-logo.png" alt="DMI - Airoverse Logo">
                     </div>
                     <div class="experience-title">
                         <h3>Software Developer</h3>
-                        <p class="experience-company">Airoverse, Pittsburgh, United States</p>
+                        <p class="experience-company">DMI - Airoverse, Pittsburgh, PA</p>
                     </div>
-                    <span class="experience-date">Mar '25 — Apr '25</span>
+                    <span class="experience-date">03/2025 - 04/2025</span>
                 </div>
                 <ul class="experience-list">
-                    <li>Developed an AI-powered HV AC detection platform using Python, FastAPI, and React.js, to generate business leads in an agile environment,
-demonstrating ownership and business acumen.</li>
-                    <li>Trained object detection models (YOLOv8, RF-DETR), achieving 90% precision and 80% recall on satellite imagery.</li>
-                    <li>Integrated cloud APIs (Google Maps, Roboflow), enabling automated real-time data collection on different building tags, supporting data
-pipelines and trustworthy data sources.</li>
-                    <li>Reduced manual HV AC detection time and operational costs by 90%, significantly enhancing lead generation efficiency.</li>
+                    <li>Developed a full-stack RTU detection platform that used YOLOv11 and RF-DETR models to identify rooftop HVAC units from satellite imagery.</li>
+                    <li>Integrated Google Maps API, Roboflow, and OpenStreetMap to automate geospatial data processing and visualization.</li>
+                    <li>Built and deployed FastAPI microservices on GCP using Docker, enabling scalable and low-latency inference pipelines.</li>
+                    <li>Implemented a CI/CD pipeline for continuous integration, delivery, and monitoring using GitHub Actions.</li>
+                    <li>Reduced manual HVAC lead generation effort by 95%, significantly boosting customer acquisition potential.</li>
                 </ul>
             </div>
 
             <div class="experience-card">
                 <div class="experience-header">
                     <div class="experience-logo">
-                        <img src="assets/images/sefs-logo.png" alt="Shraddha Engineering and Facility Services Logo">
+                        <img src="assets/images/pitt-logo.png" alt="Larsen & Toubro Logo">
                     </div>
                     <div class="experience-title">
-                        <h3>Data Automation Engineer</h3>
-                        <p class="experience-company">Shraddha Engineering and Facility Services, Coimbatore, India</p>
+                        <h3>Grader - Big Ideas in Computing and Information</h3>
+                        <p class="experience-company">University of Pittsburgh, Pittsburgh, PA</p>
                     </div>
-                    <span class="experience-date">Jun '20 — Dec '22</span>
+                    <span class="experience-date">09/2024 - 12/2024</span>
                 </div>
                 <ul class="experience-list">
-                    <li>Led deployment of IoT and automation across 15+ facilities, collecting and analyzing sensor data with advanced analytical techniques,
-saving 2,000+ hours through efficient data cleansing.</li>
-                    <li>Developed real-time equipment monitoring tools, reducing equipment downtime by 30% and improving maintenance planning.</li>
-                    <li>Automated ETL and reporting workflows, reducing data processing times by 50% and supporting timely, data-driven decision making and
-transformation.</li>
+                    <li>Graded programming assignments, quizzes, and exams for CMPINF 0010, focusing on Python-based tasks.</li>
+                    <li>Provided detailed and constructive feedback to enhance students' understanding and coding skills.</li>
+                    <li>Assisted with course material preparation and delivery, ensuring consistency and clarity across multiple sections.</li>
+                    <li>Supported students in mastering foundational Python concepts through personalized guidance and problem-solving.</li>
                 </ul>
             </div>
 
             <div class="experience-card">
                 <div class="experience-header">
                     <div class="experience-logo">
-                        <img src="assets/images/blue-logo.png" alt="Blue Star Limited Logo">
+                        <img src="assets/images/pitt-logo.png" alt="Larsen & Toubro Logo">
                     </div>
                     <div class="experience-title">
-                        <h3>Systems Analytics Engineer</h3>
-                        <p class="experience-company">Blue Star Limited, Coimbatore, India</p>
+                        <h3>Sales Associate - University Store on Fifth</h3>
+                        <p class="experience-company">University of Pittsburgh, Pittsburgh, PA</p>
                     </div>
-                    <span class="experience-date">Apr '18 — Jun '20</span>
+                    <span class="experience-date">04/2024 - 09/2024</span>
                 </div>
                 <ul class="experience-list">
-                    <li>Implemented ML-driven predictive maintenance for Industrial systems using Python, Pandas, reducing failures by 22% and enhancing data
-quality and trustworthy processes.</li>
-                    <li>Designed and integrated PLC/SCADA-based automation for 25+ industrial projects, increasing operational efficiency by 18%. Led a cross-
-functional team of 10 to deliver data analytics solutions, including sensor network deployment and detailed documentation.</li>
+                    <li>Served as a Technology Sales Associate at the University Store on Fifth, specializing in Apple products.</li>
+                    <li>Assisted students and customers in selecting and purchasing Apple laptops, iPads, and accessories, as well as Dell laptops, based on their usage and needs.</li>
+                    <li>Provided knowledgeable recommendations to ensure customers made informed decisions.</li>
+                    <li>Maintained up-to-date knowledge of the latest technology products and trends.</li>
                 </ul>
             </div>
 
             <div class="experience-card">
                 <div class="experience-header">
                     <div class="experience-logo">
-                        <img src="assets/images/ces-logo.jpeg" alt="Chennai Engineering Services Logo">
+                        <img src="assets/images/sefs-logo.png" alt="Larsen & Toubro Logo">
                     </div>
                     <div class="experience-title">
-                        <h3>Automation Engineer</h3>
+                        <h3>Senior Electrical Engineer</h3>
+                        <p class="experience-company">Shraddha Engineering & Facility Services, Coimbatore, India</p>
+                    </div>
+                    <span class="experience-date">06/2020 - 12/2022</span>
+                </div>
+                <ul class="experience-list">
+                    <li>Directed and managed a team of engineers, ensuring adherence to project schedules and compliance with technical standards.</li>
+                    <li>Developed and optimized project execution plans, creating detailed short- and long-term schedules to streamline operations.</li>
+                    <li>Conducted precision testing of electrical systems using advanced diagnostic tools, emphasizing safety and performance metrics.</li>
+                    <li>Delivered actionable insights by analyzing circuit data and ensuring compatibility across systems.</li>
+                    <li>Provided technical supervision and collaborated with multidisciplinary teams to solve complex problems and drive efficiency.</li>
+                    <li>Implemented preventive maintenance schedules to maximize system uptime and operational continuity.</li>
+                </ul>
+            </div>
+
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div class="experience-logo">
+                        <img src="assets/images/blue-logo.png" alt="Larsen & Toubro Logo">
+                    </div>
+                    <div class="experience-title">
+                        <h3>Electrical Engineer</h3>
+                        <p class="experience-company">BlueStar Limited, Coimbatore, India</p>
+                    </div>
+                    <span class="experience-date">04/2018 - 06/2020</span>
+                </div>
+                <ul class="experience-list">
+                    <li>Conducted preventive maintenance checks and services (PMCS) to ensure optimal performance ofcritical systems.</li>
+                    <li>Developed and maintained detailed maintenance logs, schedules, and compliance documentation to meet regulatory standards.</li>
+                    <li>Diagnosed and resolved complex issues in electrical and mechanical systems, including gas and diesel engine-driven generators.</li>
+                    <li>Designed and implemented electrical and control wiring solutions for diverse facilities and infrastructure.</li>
+                    <li>Led maintenance activities in challenging environments, ensuring efficiency and safety under non-standard schedules.</li>
+                    <li>Streamlined building equipment maintenance with comprehensive daily, weekly, and monthly checklists.</li>
+                </ul>
+            </div>
+
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div class="experience-logo">
+                        <img src="assets/images/ces-logo.jpeg" alt="Tamil Nadu Generation and Distribution Corporation Logo">
+                    </div>
+                    <div class="experience-title">
+                        <h3>Electrical Engineer</h3>
                         <p class="experience-company">Chennai Engineering Services, Coimbatore, India</p>
                     </div>
-                    <span class="experience-date">Jun '15 — Apr '18</span>
+                    <span class="experience-date">06/2015 - 04/2018</span>
                 </div>
                 <ul class="experience-list">
-                    <li>Automated data acquisition and reporting for industrial clients using Python, SQL, increasing reliability by 15% through effective data
-transformation and quality processes.</li>
-                    <li>Developed and deployed control logic for commercial electrical projects, integrating digital workflows with business systems. Documented
-and optimized software processes, accelerating project delivery timelines by 10% and supporting agile transformation and team player
-dynamics.</li>
+                    <li>Installed and configured electrical wiring and systems for remodeling and construction projects.</li>
+                    <li>Conducted testing of energized and de-energized circuits, adhering to standard procedures and safety protocols.</li>
+                    <li>Analyzed and interpreted electrical and mechanical schematics, blueprints, and technical diagrams for accurate implementation.</li>
+                    <li>Diagnosed and repaired electric motors, variable frequency drives, alarms, and control systems to ensure functionality and reliability.</li>  
+                    <li>Delivered high-quality work under demanding schedules, including frequent overtime, weekends, and holidays.</li>
+                </ul>
+            </div>
+
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div class="experience-logo">
+                        <img src="assets/images/tneb-logo.png" alt="Tamil Nadu Generation and Distribution Corporation Logo">
+                    </div>
+                    <div class="experience-title">
+                        <h3>Apprentice Electrical Engineer</h3>
+                        <p class="experience-company">Tamil Nadu Generation and Distribution Corporation, Coimbatore, India</p>
+                    </div>
+                    <span class="experience-date">03/2014 - 03/2015</span>
+                </div>
+                <ul class="experience-list">
+                    <li>Implemented data monitoring systems for predictive maintenance, improving generator and transmission line reliability by 15%.</li>
+                    <li>Conducted electrical troubleshooting on complex systems, reducing maintenance response times by 20% and ensuring operational continuity.</li>
+                    <li>Managed operation and maintenance tasks for a hydroelectric power plant, including 3 x 60 MW generators and associated equipment.</li>
+                    <li>Oversaw the functionality of 9 x 11/230 KV transformers, 230 KV switchyards, and transmission lines with auxiliary systems.</li>  
                 </ul>
             </div>
         </section>
