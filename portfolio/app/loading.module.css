@@ -1,0 +1,22 @@
+.wrap {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.line {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.9rem;
+  color: var(--terminal-green);
+  text-shadow: 0 0 5px rgba(126, 200, 133, 0.3);
+}
+
+.cursor {
+  animation: blink 0.8s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}

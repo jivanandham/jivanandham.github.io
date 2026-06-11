@@ -1,0 +1,84 @@
+.page {
+  padding: 6rem clamp(1.5rem, 6vw, 6rem);
+  max-width: 52rem;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  margin: 0.75rem 0 3rem;
+}
+
+.terminal {
+  background: #11130f;
+  border: 1px solid rgba(126, 200, 133, 0.25);
+  box-shadow:
+    0 0 32px rgba(126, 200, 133, 0.08),
+    4px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.termBar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0.6rem 0.9rem;
+  border-bottom: 1px solid rgba(126, 200, 133, 0.15);
+}
+
+.termBar > span:not(.termTitle) {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: rgba(154, 142, 122, 0.35);
+}
+
+.termTitle {
+  margin-left: auto;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.62rem;
+  letter-spacing: 0.15em;
+  color: var(--text-secondary);
+}
+
+.termBody {
+  padding: 1.5rem 1.5rem 1.75rem;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.88rem;
+  color: var(--terminal-green);
+  min-height: 11em;
+  text-shadow: 0 0 5px rgba(126, 200, 133, 0.3);
+}
+
+.line {
+  line-height: 2.1;
+  white-space: pre-wrap;
+}
+
+.action {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  margin-left: 0.75rem;
+  transition: color 0.25s var(--ease-out), transform 0.25s var(--ease-out);
+  display: inline-block;
+}
+
+.action:hover {
+  color: var(--accent-glow);
+  transform: translateY(-2px);
+}
+
+.cursor {
+  animation: blink 0.8s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+.note {
+  margin-top: 2rem;
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+}

@@ -1,0 +1,127 @@
+:root {
+  --bg-primary: #1a1814;
+  --bg-secondary: #242018;
+  --text-primary: #e8dcc8;
+  --text-secondary: #9a8e7a;
+  --accent: #c45d3e;
+  --accent-glow: #e07a55;
+  --terminal-green: #7ec885;
+  --grain-opacity: 0.035;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --cursor-reticle: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="7" fill="none" stroke="%23c45d3e" stroke-width="1.5"/><line x1="12" y1="0" x2="12" y2="6" stroke="%23c45d3e" stroke-width="1.5"/><line x1="12" y1="18" x2="12" y2="24" stroke="%23c45d3e" stroke-width="1.5"/><line x1="0" y1="12" x2="6" y2="12" stroke="%23c45d3e" stroke-width="1.5"/><line x1="18" y1="12" x2="24" y2="12" stroke="%23c45d3e" stroke-width="1.5"/><circle cx="12" cy="12" r="1.5" fill="%23c45d3e"/></svg>') 12 12, pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  cursor: crosshair;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+/* film grain — SVG feTurbulence, no image */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  opacity: var(--grain-opacity);
+  will-change: transform;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="2" stitchTiles="stitch"/></filter><rect width="300" height="300" filter="url(%23n)"/></svg>');
+}
+
+/* vignette */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: radial-gradient(ellipse at center, transparent 55%, rgba(10, 8, 5, 0.45) 100%);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.25s var(--ease-out), transform 0.25s var(--ease-out);
+}
+
+a:hover {
+  color: var(--accent-glow);
+}
+
+a, button, [role="button"], summary {
+  cursor: var(--cursor-reticle);
+}
+
+button {
+  font: inherit;
+  background: none;
+  border: none;
+  color: inherit;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-serif), Georgia, serif;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+code, pre {
+  font-family: var(--font-mono), "Courier New", monospace;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--bg-primary);
+}
+
+.label {
+  font-family: var(--font-mono), monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+}
+
+.accent-italic {
+  font-family: var(--font-instrument), Georgia, serif;
+  font-style: italic;
+}
+
+main {
+  margin-left: 48px;
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  main {
+    margin-left: 0;
+    padding-bottom: 72px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}

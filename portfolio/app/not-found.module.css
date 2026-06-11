@@ -1,0 +1,47 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.glitch {
+  font-family: var(--font-mono), monospace;
+  font-size: clamp(0.5rem, 1.4vw, 0.75rem);
+  line-height: 1.15;
+  color: var(--terminal-green);
+  text-shadow: 0 0 8px rgba(126, 200, 133, 0.35);
+  opacity: 0.6;
+  margin-bottom: 2rem;
+  user-select: none;
+}
+
+.msg {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+
+.sub {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+}
+
+.home {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  color: var(--terminal-green);
+  transition: color 0.25s var(--ease-out), transform 0.25s var(--ease-out);
+}
+
+.home:hover {
+  color: var(--accent-glow);
+  transform: translateY(-2px);
+}
