@@ -1,0 +1,93 @@
+.votingContainer {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-dim);
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+.label {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  color: var(--text-dim);
+  text-transform: uppercase;
+}
+
+.buttonGroup {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.voteBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-dim);
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  padding: 5px 11px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.voteBtn:hover:not(:disabled) {
+  border-color: var(--text-primary);
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.voteBtn:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.arrow {
+  font-size: 0.75rem;
+  line-height: 1;
+}
+
+.count {
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+}
+
+.votedUp {
+  background: rgba(126, 200, 133, 0.15);
+  border-color: var(--signal-green, #7ec885);
+  color: var(--signal-green, #7ec885);
+  box-shadow: 0 0 10px rgba(126, 200, 133, 0.2);
+}
+
+.votedDown {
+  background: rgba(196, 93, 62, 0.15);
+  border-color: var(--accent, #c45d3e);
+  color: var(--accent, #c45d3e);
+  box-shadow: 0 0 10px rgba(196, 93, 62, 0.2);
+}
+
+.netBadge {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  padding: 3px 8px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--text-dim);
+  border: 1px solid transparent;
+}
+
+.netBadge.positive {
+  color: var(--signal-green, #7ec885);
+  border-color: rgba(126, 200, 133, 0.3);
+}
+
+.netBadge.negative {
+  color: var(--accent, #c45d3e);
+  border-color: rgba(196, 93, 62, 0.3);
+}

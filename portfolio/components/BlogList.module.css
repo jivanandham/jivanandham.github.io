@@ -1,0 +1,222 @@
+.page {
+  padding: 3rem 2rem 5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.head {
+  margin-bottom: 3rem;
+  border-bottom: 1px solid var(--border-subtle);
+  padding-bottom: 2rem;
+}
+
+.title {
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-weight: 600;
+  line-height: 1.15;
+  color: var(--text-primary);
+  margin: 0.5rem 0 1rem;
+}
+
+.subtitle {
+  font-family: var(--font-sans), sans-serif;
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  max-width: 680px;
+  margin: 0;
+}
+
+/* Category Filters */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.filter {
+  background: transparent;
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  font-family: var(--font-mono), monospace;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.4rem 0.8rem;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.2s var(--ease-out);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.filter:hover {
+  border-color: var(--accent);
+  color: var(--text-primary);
+}
+
+.filterOn {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg-primary);
+  font-weight: 600;
+}
+
+.filterCount {
+  opacity: 0.7;
+  font-size: 0.65rem;
+}
+
+.adminNotice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(196, 93, 62, 0.1);
+  border: 1px solid var(--accent);
+  padding: 8px 14px;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  color: var(--accent);
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.adminNotice:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+.cardStats {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-dim);
+}
+
+/* Post Cards */
+.feed {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.card {
+  background: #1e1b16;
+  border: 1px solid #383126;
+  border-radius: 4px;
+  padding: 1.75rem 2rem;
+  transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4), 0 0 20px rgba(196, 93, 62, 0.1);
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.date {
+  color: var(--terminal-green);
+  letter-spacing: 0.06em;
+}
+
+.readTime {
+  color: var(--text-secondary);
+}
+
+.cardTitle {
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 0 0 0.75rem;
+}
+
+.cardLink {
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.cardLink:hover {
+  color: var(--accent-light);
+}
+
+.blurb {
+  font-family: var(--font-sans), sans-serif;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  margin: 0 0 1.25rem;
+}
+
+.footerRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding-top: 1rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.tag {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.68rem;
+  background: #14120e;
+  border: 1px solid #332d23;
+  color: #a89b85;
+  padding: 0.2rem 0.5rem;
+  border-radius: 2px;
+}
+
+.readMore {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.78rem;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  transition: gap 0.2s;
+}
+
+.readMore:hover {
+  color: var(--accent-light);
+  text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+  .page {
+    padding: 2rem 1.25rem 4rem;
+  }
+  .card {
+    padding: 1.25rem 1.25rem;
+  }
+  .cardTitle {
+    font-size: 1.25rem;
+  }
+}
